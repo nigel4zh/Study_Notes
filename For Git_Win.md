@@ -23,4 +23,6 @@ git config --global user.email "email@example.com"
 
 ####07 提交本地项目
 1. `git add 文件名`提交文件到暂存区
-2. `git commit -m"本次提交说明“`添加文件到Git仓库
+2. `git commit -m"本次提交说明“`添加文件到Git仓库 
+
+或者另一个方案`git push origin master`
