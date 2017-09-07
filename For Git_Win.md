@@ -18,10 +18,10 @@ git config --global user.email "email@example.com"
 #### 05 添加远程仓库
 `git remote add origin git仓库地址`
 
-#### 6 更新版本库到本地
+#### 06 更新版本库到本地
 `git pull origin master`
 
 #### 07 提交本地项目
 1. `git add 文件名`提交文件到暂存区
-2. `git commit -m"本次提交说明“`提交更改
+2. `git commit -m"本次提交说明或者tag“`提交更改
 3. `git push origin master`将更改推送到服务器

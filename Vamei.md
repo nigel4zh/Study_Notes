@@ -39,3 +39,11 @@ elif <条件3>:
 else:
     statement
 ```
+
+#### 06 循环
++ 函数`range()`：目的是建表，表内元素都是整数，从0开始，递增1，直到上限（不包含上限本身）
+> Python2下为list类型，Python3下为range类型
++ `for 元素 in 序列:`
++ `while 条件:`
++ `continue`：在循环的某次执行中，如果遇到`continue`，那么跳过这次执行，进行下一次循环
++ `break`：停止并跳出整个循环
